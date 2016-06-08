@@ -22,6 +22,11 @@ cp -rpf $BASEDIR/template/* $PROJECT_NAME
 #npm i realm --save
 #rnpm link realm
 
+# === replace ===
+cd $PROJECT_NAME
+sed -e "s|__PROJECT_NAME__|$PROJECT_NAME|" index.ios.template > index.ios.js
+rm -f index.ios.template
+
 # === git ===
 cd $PROJECT_NAME
 git init; git add .; git commit -m 'init'
