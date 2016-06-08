@@ -13,21 +13,14 @@ echo 'create project:' $PROJECT_NAME '...'
 # === init ===
 react-native init $PROJECT_NAME
 echo "# Vim\n*~\n*swp" >> $PROJECT_NAME/.gitignore
-cp -rpf $BASEDIR/scripts $PROJECT_NAME
+cp -rpf $BASEDIR/template/* $PROJECT_NAME
 
 # === npm ===
 
-# [webpack]
-npm i -g webpack
-npm i webpack --save
-
 # [realm]
-npm i -g rnpm
-npm i realm --save
-rnpm link realm
-
-# [route]
-npm i react-native-router-flux --save
+#npm i -g rnpm
+#npm i realm --save
+#rnpm link realm
 
 # === git ===
 cd $PROJECT_NAME
