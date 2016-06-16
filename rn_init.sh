@@ -15,6 +15,7 @@ react-native init $PROJECT_NAME
 echo "# Vim\n*~\n*swp" >> $PROJECT_NAME/.gitignore
 cp -rpf $BASEDIR/template/* $PROJECT_NAME
 
+cd $PROJECT_NAME
 # === npm ===
 
 # [realm]
@@ -22,13 +23,17 @@ cp -rpf $BASEDIR/template/* $PROJECT_NAME
 #npm i realm --save
 #rnpm link realm
 
+# [router]
+#npm i react-native-router-flux --save
+
 # === replace ===
-cd $PROJECT_NAME
 sed -e "s|__PROJECT_NAME__|$PROJECT_NAME|" index.ios.template > index.ios.js
 rm -f index.ios.template
 
+sed -e "s|__PROJECT_NAME__|$PROJECT_NAME|" scripts/device_ios.sh.template > scripts/device_ios.sh
+rm -f scripts/device_ios.sh.template
+
 # === git ===
-cd $PROJECT_NAME
 git init; git add .; git commit -m 'init'
 
 # === done ===
