@@ -7,7 +7,7 @@ APP_NAME='__PROJECT_NAME__'
 BUILD_DIR='./build'
 BUILD_TARGET='Debug' # or Release
 
-xcodebuild clean build -scheme $APP_NAME CONFIGURATION_BUILD_DIR=$BUILD_DIR -configuration $BUILD_DIR
+xcodebuild clean build -scheme $APP_NAME -configuration $BUILD_TARGET CONFIGURATION_BUILD_DIR=$BUILD_DIR
 
 cd -
 
