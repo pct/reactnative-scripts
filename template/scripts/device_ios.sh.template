@@ -3,7 +3,7 @@
 # clean build
 cd ios
 
-APP_NAME='__APPNAME__'
+APP_NAME='__PROJECT_NAME__'
 BUILD_DIR='./build'
 BUILD_TARGET='Debug' # or Release
 
