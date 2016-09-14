@@ -16,7 +16,12 @@ echo "# Vim\n*~\n*swp" >> $PROJECT_NAME/.gitignore
 cp -rpf $BASEDIR/template/* $PROJECT_NAME
 
 cd $PROJECT_NAME
+
 # === npm ===
+
+# [native-base]
+npm i native-base --save
+react-native link react-native-vector-icons
 
 # [realm]
 #npm i -g rnpm
