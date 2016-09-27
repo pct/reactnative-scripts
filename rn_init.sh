@@ -36,6 +36,7 @@ sed -e "s|__PROJECT_NAME__|$PROJECT_NAME|" index.ios.template > index.ios.js
 rm -f index.ios.template
 
 sed -e "s|__PROJECT_NAME__|$PROJECT_NAME|" scripts/device_ios.sh.template > scripts/device_ios.sh
+chmod +x scripts/device_ios.sh
 rm -f scripts/device_ios.sh.template
 
 # === git ===
