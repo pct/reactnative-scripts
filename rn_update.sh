@@ -1,2 +1,3 @@
 #!/bin/sh
-npm i -g react-native-cli
+npm i -g yarn
+yarn add global react-native-cli
