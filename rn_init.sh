@@ -29,7 +29,7 @@ react-native link react-native-vector-icons
 #rnpm link realm
 
 # [router]
-#npm i react-native-router-flux --save
+yarn add react-native-router-flux
 
 # === replace ===
 sed -e "s|__PROJECT_NAME__|$PROJECT_NAME|" index.ios.template > index.ios.js
