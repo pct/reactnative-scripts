@@ -1,18 +1,16 @@
 import React, { Component } from 'react';
-import { Actions } from 'react-native-router-flux';
-
 import {
   StyleSheet,
   Text,
   View
 } from 'react-native';
 
-export default class Index extends Component {
+export default class Item extends Component {
   render() {
     return (
-      <View style={ styles.container }>
-        <Text style={ styles.welcome } onPress={ Actions.item }>
-          Index Page, Click me to Item page
+      <View style={styles.container}>
+        <Text style={styles.welcome}>
+          Item Page
         </Text>
       </View>
     );

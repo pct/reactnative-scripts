@@ -1,5 +1,5 @@
 import { AppRegistry } from 'react-native';
 
-import Index from './app/views/index';
+import Route from './app/config/route';
 
-AppRegistry.registerComponent('__PROJECT_NAME__', () => Index);
+AppRegistry.registerComponent('__PROJECT_NAME__', () => Route);
