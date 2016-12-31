@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 
 import {Scene, Router} from 'react-native-router-flux';
 
-// views
-import Index from '../views/index';
-import Item from '../views/item';
+// components
+import Index from '../components/index';
+import Item from '../components/item';
 
 export default class Route extends Component {
   render() {
