@@ -1,39 +1,33 @@
 import React, { Component } from 'react';
 import { Actions } from 'react-native-router-flux';
+import { Container, Header, Title, Content, Tabs, Button, Icon } from 'native-base';
 
-import {
-  StyleSheet,
-  Text,
-  View
-} from 'react-native';
+// ours
+import Tab1 from './tabs/tab1';
+import Tab2 from './tabs/tab2';
+import Tab3 from './tabs/tab3';
 
 export default class Index extends Component {
   render() {
     return (
-      <View style={ styles.container }>
-        <Text style={ styles.welcome } onPress={ Actions.item }>
-          Index Page, Click me to Item page
-        </Text>
-      </View>
+    <Container>
+      <Header>
+        <Button transparent>
+          <Icon name='ios-menu' />
+        </Button>
+        <Title>@TODO Tab Title Switch</Title>
+        <Button transparent>
+          <Icon name='ios-share-outline' />
+        </Button>
+      </Header>
+      <Content>
+        <Tabs>
+          <Tab1 tabLabel='Tab1' />
+          <Tab2 tabLabel='Tab2' />
+          <Tab3 tabLabel='Tab3' />
+        </Tabs>
+      </Content>
+    </Container>
     );
   }
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: '#F5FCFF',
-  },
-  welcome: {
-    fontSize: 20,
-    textAlign: 'center',
-    margin: 10,
-  },
-  instructions: {
-    textAlign: 'center',
-    color: '#333333',
-    marginBottom: 5,
-  },
-});
