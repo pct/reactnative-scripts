@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Actions } from 'react-native-router-flux';
+import Config from '../../config/config.js';
 import {
   StyleSheet,
   Text,
@@ -12,6 +13,10 @@ export default class Tab1 extends Component {
       <View style={styles.container}>
         <Text style={styles.welcome} onPress={ Actions.item }>
           Click to open Item page
+        </Text>
+
+        <Text>
+          {Config.WELCOME_MSG}
         </Text>
       </View>
     );

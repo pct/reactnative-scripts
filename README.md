@@ -27,4 +27,4 @@ set WebView height to Dimensions.get('window').height
 
 - Safari View: react-native-safari-view, https://github.com/naoufal/react-native-safari-view
 
-- Config, react-native-config, https://github.com/luggit/react-native-config
+- Config, react-native-dotenv, https://github.com/zetachang/react-native-dotenv
