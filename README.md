@@ -20,3 +20,8 @@ ref: https://medium.com/@bilalbudhani/9-libraries-to-consider-for-your-next-reac
 
 ## Awesome React Native
 - https://github.com/jondot/awesome-react-native
+
+## Tips:
+- WebView Height: https://facebook.github.io/react-native/docs/dimensions.html
+set WebView height to Dimensions.get('window').height
+
