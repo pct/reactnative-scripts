@@ -20,7 +20,7 @@ cd $PROJECT_NAME
 # === npm ===
 
 # [native-base]
-yarn add native-base
+yarn add native-base react-native-vector-icons
 react-native link react-native-vector-icons
 
 # [realm]
