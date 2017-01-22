@@ -25,6 +25,7 @@ react-native link react-native-vector-icons
 
 # [react-native-safari-view]
 yarn add react-native-safari-view
+react-native link react-native-safari-view
 
 # [realm]
 #npm i -g rnpm
