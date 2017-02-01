@@ -1,6 +1,9 @@
-# ReactNative Scripts (實驗)
+# ReactNative Scripts
 
-改用 http://nativebase.io/ ?
+use http://nativebase.io/
+
+## TODO
+- use react-navigation https://github.com/react-community/react-navigation
 
 ## 9 tools
 ref: https://medium.com/@bilalbudhani/9-libraries-to-consider-for-your-next-react-native-project-723f179d4764#.13j6va6v4
