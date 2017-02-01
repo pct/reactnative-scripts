@@ -2,8 +2,14 @@
 
 use http://nativebase.io/
 
+other ui:
+ - https://github.com/react-native-community/react-native-elements
+ - https://github.com/shoutem/ui
+
 ## TODO
 - use react-navigation https://github.com/react-community/react-navigation
+- learn boilerplate https://github.com/jhen0409/react-native-boilerplate
+- learn ignite https://github.com/infinitered/ignite
 
 ## 9 tools
 ref: https://medium.com/@bilalbudhani/9-libraries-to-consider-for-your-next-react-native-project-723f179d4764#.13j6va6v4
@@ -20,6 +26,7 @@ ref: https://medium.com/@bilalbudhani/9-libraries-to-consider-for-your-next-reac
 
 ## Others: 
 - Router: https://github.com/jmurzy/react-router-native
+- Debugger https://github.com/jhen0409/react-native-debugger
 
 ## Awesome React Native
 - https://github.com/jondot/awesome-react-native
