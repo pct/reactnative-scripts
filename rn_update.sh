@@ -1,3 +1,4 @@
 #!/bin/sh
 brew install yarn
-yarn global add react-native-cli
+npm i -g react-native-cli
+# yarn global add react-native-cli # not work?
