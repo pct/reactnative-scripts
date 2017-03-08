@@ -8,6 +8,11 @@
 ## Animation
 - http://www.lottiefiles.com/
 
+## CLI Template
+- https://github.com/facebook/react-native/pull/12548
+
+`react-native init MyApp --template foo` to create from github project name react-native-template-`foo`
+
 ## TODO
 - use react-navigation https://github.com/react-community/react-navigation
 - learn boilerplate https://github.com/jhen0409/react-native-boilerplate
