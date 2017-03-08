@@ -1,5 +1,5 @@
 import { AppRegistry } from 'react-native';
 
-import Route from './app/config/route';
+import Route from './src/config/route';
 
 AppRegistry.registerComponent('__PROJECT_NAME__', () => Route);
