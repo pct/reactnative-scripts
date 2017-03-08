@@ -5,6 +5,9 @@
 - https://github.com/react-native-community/react-native-elements
 - https://github.com/shoutem/ui
 
+## Animation
+- http://www.lottiefiles.com/
+
 ## TODO
 - use react-navigation https://github.com/react-community/react-navigation
 - learn boilerplate https://github.com/jhen0409/react-native-boilerplate
