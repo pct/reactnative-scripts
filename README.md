@@ -1,9 +1,13 @@
 # ReactNative Scripts
 
-## UI
+## UI Component
 - http://nativebase.io/
 - https://github.com/react-native-community/react-native-elements
 - https://github.com/shoutem/ui
+
+## UI View
+- Magazine ListView: https://github.com/ggomaeng/react-native-magazine-listview
+- Card Modal: https://github.com/ggomaeng/react-native-card-modal
 
 ## Animation
 - http://www.lottiefiles.com/
