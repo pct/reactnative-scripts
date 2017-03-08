@@ -18,6 +18,8 @@ cp -rpf $BASEDIR/template/* $PROJECT_NAME
 cd $PROJECT_NAME
 
 # === npm ===
+# [lodash]
+yarn add lodash
 
 # [native-base]
 yarn add native-base react-native-vector-icons
