@@ -18,7 +18,7 @@ export default class Index extends Component {
           </Button>
         </Left>
         <Body>
-        <Title>@TODO Tab Title Switch</Title>
+          <Title>@TODO Tab Title Switch</Title>
         </Body>
         <Right>
           <Button transparent>
