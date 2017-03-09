@@ -8,6 +8,10 @@ import Tab2 from './tabs/tab2';
 import Tab3 from './tabs/tab3';
 
 export default class Index extends Component {
+  constructor () {
+    super();
+    console.log('===== Your Project Start =====');
+  }
   render() {
     return (
     <Container>
