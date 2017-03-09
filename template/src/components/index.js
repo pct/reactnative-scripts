@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Actions } from 'react-native-router-flux';
-import { Container, Header, Title, Content, Tabs, Button, Icon } from 'native-base';
+import { Container, Header, Title, Content, Tab, Tabs, Button, Icon, Left, Right, Body } from 'native-base';
 
 // ours
 import Tab1 from './tabs/tab1';
@@ -11,22 +11,26 @@ export default class Index extends Component {
   render() {
     return (
     <Container>
-      <Header>
-        <Button transparent>
-          <Icon name='ios-menu' />
-        </Button>
+      <Header hasTabs>
+        <Left>
+          <Button transparent>
+            <Icon name='ios-menu' />
+          </Button>
+        </Left>
+        <Body>
         <Title>@TODO Tab Title Switch</Title>
-        <Button transparent>
-          <Icon name='ios-share-outline' />
-        </Button>
+        </Body>
+        <Right>
+          <Button transparent>
+            <Icon name='ios-share-outline' />
+          </Button>
+        </Right>
       </Header>
-      <Content>
-        <Tabs>
-          <Tab1 tabLabel='Tab1' />
-          <Tab2 tabLabel='Tab2' />
-          <Tab3 tabLabel='Tab3' />
-        </Tabs>
-      </Content>
+      <Tabs>
+        <Tab1 heading='Tab1' />
+        <Tab2 heading='Tab2' />
+        <Tab3 heading='Tab3' />
+      </Tabs>
     </Container>
     );
   }
