@@ -15,6 +15,7 @@
 
 ## Animation
 - http://www.lottiefiles.com/
+- https://github.com/oblador/react-native-animatable
 
 ## CLI Template
 - https://github.com/facebook/react-native/pull/12548
@@ -64,3 +65,8 @@ set WebView height to Dimensions.get('window').height
 - Safari View: react-native-safari-view, https://github.com/naoufal/react-native-safari-view
 
 - Config, react-native-dotenv, https://github.com/zetachang/react-native-dotenv
+
+## 中文
+- http://reactnative.cn/
+- http://manongs.com/a/lmqLEh
+- http://ithelp.ithome.com.tw/users/20103341/ironman/1023
