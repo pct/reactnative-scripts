@@ -6,6 +6,9 @@
 - https://github.com/shoutem/ui
 - https://github.com/sonnylazuardi/awponent
 
+## Learn flexbox 
+- https://kyusuf.com/post/almost-complete-guide-to-flexbox-without-flexbox
+
 ## UI View
 - Magazine ListView: https://github.com/ggomaeng/react-native-magazine-listview
 - Card Modal: https://github.com/ggomaeng/react-native-card-modal
