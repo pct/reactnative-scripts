@@ -7,7 +7,7 @@
 - https://github.com/sonnylazuardi/awponent
 
 ## Learn flexbox 
-- https://kyusuf.com/post/almost-complete-guide-to-flexbox-without-flexbox
+- https://facebook.github.io/react-native/docs/flexbox.html
 
 ## UI View
 - Magazine ListView: https://github.com/ggomaeng/react-native-magazine-listview
