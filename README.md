@@ -22,10 +22,9 @@
 
 `react-native init MyApp --template foo` to create from github project name react-native-template-`foo`
 
-## TODO
-- use react-navigation https://github.com/react-community/react-navigation
-- learn boilerplate https://github.com/jhen0409/react-native-boilerplate
-- learn ignite https://github.com/infinitered/ignite
+## Navigator
+- https://github.com/react-community/react-navigation
+- http://airbnb.io/native-navigation/
 
 ## tools
 ref: https://medium.com/@bilalbudhani/9-libraries-to-consider-for-your-next-react-native-project-723f179d4764#.13j6va6v4
@@ -73,3 +72,7 @@ set WebView height to Dimensions.get('window').height
 - http://reactnative.cn/
 - http://manongs.com/a/lmqLEh
 - http://ithelp.ithome.com.tw/users/20103341/ironman/1023
+
+## TODO
+- learn boilerplate https://github.com/jhen0409/react-native-boilerplate
+- learn ignite https://github.com/infinitered/ignite
