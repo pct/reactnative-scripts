@@ -79,3 +79,10 @@ set WebView height to Dimensions.get('window').height
 ## TODO
 - learn boilerplate https://github.com/jhen0409/react-native-boilerplate
 - learn ignite https://github.com/infinitered/ignite
+
+## Launch Screen
+- http://stackoverflow.com/questions/34027270/ios-launch-screen-in-react-native
+    $ npm install -g yo generator-rn-toolbox
+    $ brew install imagemagick
+    $ yo rn-toolbox:assets --splash YOUR_SQUARE_IMAGE.png --ios :w
+    
