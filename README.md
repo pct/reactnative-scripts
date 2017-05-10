@@ -85,4 +85,10 @@ set WebView height to Dimensions.get('window').height
     $ npm install -g yo generator-rn-toolbox
     $ brew install imagemagick
     $ yo rn-toolbox:assets --splash YOUR_SQUARE_IMAGE.png --ios :w
-    
+
+
+## Template
+- https://expo.io/
+- https://github.com/react-community/create-react-native-app
+- https://github.com/infinitered/ignite
+- https://nativebase.io/
