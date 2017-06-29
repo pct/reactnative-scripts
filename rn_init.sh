@@ -21,8 +21,11 @@ cd $PROJECT_NAME
 # [lodash]
 yarn add lodash
 
-# [native-base]
-yarn add native-base react-native-vector-icons
+# [navigation]
+yarn add react-native-navigation@latest
+
+# react-native-elements
+yarn add react-native-elements react-native-vector-icons
 react-native link react-native-vector-icons
 
 # [react-native-safari-view]
@@ -34,15 +37,15 @@ react-native link react-native-safari-view
 #npm i realm --save
 #rnpm link realm
 
-# [router]
-yarn add react-native-router-flux
-
 # === replace ===
-sed -e "s|__PROJECT_NAME__|$PROJECT_NAME|" index.ios.template > index.ios.js
-rm -f index.ios.template
+sed -e "s|__PROJECT_NAME__|$PROJECT_NAME|" index.ios.tpl > index.ios.js
+cp index.ios.js index.android.js
+rm -f index.ios.tpl
 
 # === git ===
 git init; git add .; git commit -m 'init'
 
 # === done ===
 echo "\n\ndone!"
+
+echo "\n\nView https://wix.github.io/react-native-navigation/ to setup react-native-navigation on iOS/Android."

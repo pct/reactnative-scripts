@@ -1,17 +1,21 @@
 import React, { Component } from 'react';
-import { Actions } from 'react-native-router-flux';
+import Config from '../../config/config.js';
 import {
   StyleSheet,
   Text,
   View
 } from 'react-native';
 
-export default class Item extends Component {
+export default class Tab1 extends Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text style={styles.welcome} onPress={ Actions.pop }>
-          Item Page, Click top pop this screen.
+        <Text style={styles.welcome}>
+          Click to open Item page
+        </Text>
+
+        <Text>
+          {Config.WELCOME_MSG}
         </Text>
       </View>
     );
