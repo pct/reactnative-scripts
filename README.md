@@ -29,6 +29,7 @@
 ## tools
 ref: https://medium.com/@bilalbudhani/9-libraries-to-consider-for-your-next-react-native-project-723f179d4764#.13j6va6v4
 
+- Iconic: https://github.com/prscX/react-native-iconic
 - Icons: https://github.com/oblador/react-native-vector-icons
 - Form: https://github.com/FaridSafi/react-native-gifted-form
 - Push: https://github.com/zo0r/react-native-push-notification
