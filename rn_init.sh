@@ -18,20 +18,19 @@ cp -rpf $BASEDIR/template/* $PROJECT_NAME
 cd $PROJECT_NAME
 
 # === npm ===
-# [lodash]
+# lodash
 yarn add lodash
 
-# [navigation]
-yarn add react-native-navigation@latest
+# navigation
+yarn add react-navigation
 
 # react-native-elements
 yarn add react-native-elements react-native-vector-icons
-react-native link react-native-vector-icons
 
 # [react-native-safari-view]
 yarn add react-native-safari-view
-react-native link react-native-safari-view
 
+react-native link 
 # [realm]
 #npm i -g rnpm
 #npm i realm --save
@@ -47,5 +46,3 @@ git init; git add .; git commit -m 'init'
 
 # === done ===
 echo "\n\ndone!"
-
-echo "\n\nView https://wix.github.io/react-native-navigation/ to setup react-native-navigation on iOS/Android."
