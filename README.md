@@ -87,6 +87,19 @@ set WebView height to Dimensions.get('window').height
     $ brew install imagemagick
     $ yo rn-toolbox:assets --splash YOUR_SQUARE_IMAGE.png --ios :w
 
+## TimeLine 
+- https://github.com/thegamenicorus/react-native-timeline-listview
+
+## FastImage
+- https://github.com/DylanVann/react-native-fast-image
+
+## Input Prompt
+- https://github.com/SkrewEverything/react-native-input-prompt
+
+## WeChat
+- https://github.com/yorkie/react-native-wechat
+
+
 
 ## Template
 - https://expo.io/
