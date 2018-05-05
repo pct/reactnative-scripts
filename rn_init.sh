@@ -33,6 +33,9 @@ yarn add --dev react-native-stylus-transformer stylus
 #npm i realm --save
 #rnpm link realm
 
+# === debugger ===
+brew update && brew cask install react-native-debugger
+
 # === git ===
 git init; git add .; git commit -m 'init'
 
