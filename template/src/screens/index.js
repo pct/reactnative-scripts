@@ -1,23 +1,13 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
+import { Platform, StyleSheet, Text, View, ImageBackground } from 'react-native'
+import { Button } from 'react-native-elements'
 
-import {
-  Platform,
-  StyleSheet,
-  Text,
-  View,
-  ImageBackground
-} from 'react-native';
-
-import {
-  Button
-} from 'react-native-elements';
+import styles from './styles/index.styl'
 
 export default class Index extends Component {
   render() {
     return (
-      <Text>Hello!</Text>
+      <Text style={ styles.label }>Hello!</Text>
     )
   }
-};
-
-styles = StyleSheet.create({});
+}

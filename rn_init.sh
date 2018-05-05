@@ -26,6 +26,8 @@ yarn add lodash \
 
 react-native link 
 
+yarn add --dev react-native-stylus-transformer stylus
+
 # [realm]
 #npm i -g rnpm
 #npm i realm --save

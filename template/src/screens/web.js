@@ -1,16 +1,6 @@
-import React, { Component } from 'react';
-
-import {
-  Platform,
-  StyleSheet,
-  Text,
-  View,
-  ImageBackground
-} from 'react-native';
-
-import {
-  Button
-} from 'react-native-elements';
+import React, { Component } from 'react'
+import { Text } from 'react-native'
+import { Button } from 'react-native-elements'
 
 export default class Web extends Component {
   render() {
@@ -18,6 +8,4 @@ export default class Web extends Component {
       <Text>Web</Text>
     )
   }
-};
-
-styles = StyleSheet.create({});
+}
