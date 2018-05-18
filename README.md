@@ -1,5 +1,8 @@
 # ReactNative Scripts
 
+## Camera
+- https://github.com/wix/react-native-camera-kit
+
 ## Stylus
 - https://github.com/kristerkari/react-native-stylus-transformer
 
