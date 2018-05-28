@@ -3,6 +3,9 @@
 ## Camera
 - https://github.com/wix/react-native-camera-kit
 
+## Device Permission
+- https://github.com/yonahforst/react-native-permissions
+
 ## Stylus
 - https://github.com/kristerkari/react-native-stylus-transformer
 
