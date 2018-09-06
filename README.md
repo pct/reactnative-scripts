@@ -34,6 +34,7 @@
 ## Navigator
 - https://github.com/react-community/react-navigation
 - http://airbnb.io/native-navigation/
+- https://github.com/sergeyshpadyrev/react-native-easy-router/
 
 ## tools
 ref: https://medium.com/@bilalbudhani/9-libraries-to-consider-for-your-next-react-native-project-723f179d4764#.13j6va6v4
