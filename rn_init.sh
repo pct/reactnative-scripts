@@ -18,15 +18,15 @@ cp -rpf $BASEDIR/template/* $PROJECT_NAME
 cd $PROJECT_NAME
 
 # === npm ===
-yarn add lodash \
+npm i lodash \
   react-navigation \
-  react-native-elements \
+  react-native-elements@beta \
   react-native-vector-icons \
-  react-native-safari-view
+  react-native-safari-view --save
 
 react-native link 
 
-yarn add --dev react-native-stylus-transformer stylus
+npm i react-native-stylus-transformer stylus --save
 
 # [realm]
 #npm i -g rnpm
