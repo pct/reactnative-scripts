@@ -1,8 +1,15 @@
-module.exports = {
-  getTransformModulePath() {
-    return require.resolve("react-native-stylus-transformer");
-  },
-  getSourceExts() {
-    return ["js", "jsx", "styl"];
-  }
-};
+const { getDefaultConfig } = require("metro-config");
+
+module.exports = (async () => {
+  const {
+    resolver: { sourceExts }
+  } = await getDefaultConfig();
+  return {
+    transformer: {
+      babelTransformerPath: require.resolve("react-native-stylus-transformer")
+    },
+    resolver: {
+      sourceExts: [...sourceExts, "styl"]
+    }
+  };
+})();
