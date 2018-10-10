@@ -116,3 +116,9 @@ set WebView height to Dimensions.get('window').height
 - https://github.com/react-community/create-react-native-app
 - https://github.com/infinitered/ignite
 - https://nativebase.io/
+
+
+# react-native-git-upgrade tips
+1. keep current node_modules match old/current react-native version
+2. react-native-git-upgrade <react-native new version>
+3. ncu -ua
