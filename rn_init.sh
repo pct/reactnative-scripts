@@ -23,6 +23,9 @@ npm i lodash \
   react-native-elements \
   react-native-vector-icons \
   react-native-gesture-handler \
+  react-navigation-header-buttons \
+  react-native-storage \
+  react-native-keyboard-aware-scroll-view \
   react-native-safari-view --save
 
 react-native link 

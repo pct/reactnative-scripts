@@ -1,5 +1,5 @@
-let Config = {
-  WELCOME_MSG: 'Hello, World!'
+global.Config = {
+  MESSAGE: 'Hello, 4Point Design!'
 }
 
-module.exports = Config;
+module.exports = global.Config

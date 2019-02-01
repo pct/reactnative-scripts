@@ -7,7 +7,9 @@ import styles from './styles/index.styl'
 export default class Index extends Component {
   render() {
     return (
-      <Text style={ styles.label }>Hello!</Text>
+      <View style={styles.container}>
+        <Text style={ styles.label }>{global.Config.MESSAGE}</Text>
+      </View>
     )
   }
 }
