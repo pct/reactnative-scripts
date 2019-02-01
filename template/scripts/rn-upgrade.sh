@@ -2,5 +2,5 @@
 ncu -ua
 yarn
 
-react-native upgrade
+react-native-git-upgrade
 react-native link
