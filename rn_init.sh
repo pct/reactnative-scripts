@@ -20,8 +20,9 @@ cd $PROJECT_NAME
 # === npm ===
 npm i lodash \
   react-navigation \
-  react-native-elements@beta \
+  react-native-elements \
   react-native-vector-icons \
+  react-native-gesture-handler \
   react-native-safari-view --save
 
 react-native link 
