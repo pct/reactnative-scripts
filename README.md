@@ -115,7 +115,17 @@ ref: https://medium.com/@bilalbudhani/9-libraries-to-consider-for-your-next-reac
 ## WeChat
 - https://github.com/yorkie/react-native-wechat
 
+## i18n
+- https://github.com/fnando/i18n-js
 
+## Keychain
+- https://github.com/oblador/react-native-keychain
+
+# react-native-localize
+- https://github.com/react-native-community/react-native-localize
+
+# react-native-splash-screen
+- https://github.com/react-native-community/react-native-localize
 
 ## Template
 - https://expo.io/
