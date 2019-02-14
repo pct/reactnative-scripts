@@ -140,3 +140,7 @@ ref: https://medium.com/@bilalbudhani/9-libraries-to-consider-for-your-next-reac
 - update rn-cli.config.js if it exists
 - react-native-git-upgrade <react-native new version>
 - ncu -ua
+
+
+# Event Listener?
+- https://facebook.github.io/react-native/docs/appstate
