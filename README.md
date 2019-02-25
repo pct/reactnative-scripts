@@ -1,6 +1,6 @@
 # ReactNative Scripts
 
-# Template
+## Template
 - https://github.com/infinitered/ignite-bowser
 
 ## Network (check if no network)
@@ -145,5 +145,8 @@ ref: https://medium.com/@bilalbudhani/9-libraries-to-consider-for-your-next-reac
 - ncu -ua
 
 
-# Event Listener?
+## Event Listener?
 - https://facebook.github.io/react-native/docs/appstate
+
+## QR Code
+- https://github.com/awesomejerry/react-native-qrcode-svg
