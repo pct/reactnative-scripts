@@ -55,8 +55,10 @@ ref: https://medium.com/@bilalbudhani/9-libraries-to-consider-for-your-next-reac
 - Loading: https://github.com/BilalBudhani/react-native-sleek-loading-indicator
 
 
-## Audio
+## Audio & Video
 - https://github.com/react-native-kit/react-native-track-player
+- Background Play Setting: https://developer.apple.com/library/archive/documentation/Audio/Conceptual/AudioSessionProgrammingGuide/AudioSessionBasics/AudioSessionBasics.html#//apple_ref/doc/uid/TP40007875-CH3-SW3
+- https://github.com/react-native-community/react-native-video
 
 ## Intro
 - https://github.com/FuYaoDe/react-native-app-intro
