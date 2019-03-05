@@ -152,3 +152,6 @@ ref: https://medium.com/@bilalbudhani/9-libraries-to-consider-for-your-next-reac
 
 ## QR Code
 - https://github.com/awesomejerry/react-native-qrcode-svg
+
+## 浮動視窗/跨頁面 component
+- https://github.com/magicismight/react-native-root-siblings
