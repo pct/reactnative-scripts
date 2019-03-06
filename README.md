@@ -155,3 +155,6 @@ ref: https://medium.com/@bilalbudhani/9-libraries-to-consider-for-your-next-reac
 
 ## 浮動視窗/跨頁面 component
 - https://github.com/magicismight/react-native-root-siblings
+
+## Admob
+- https://github.com/sbugert/react-native-admob
