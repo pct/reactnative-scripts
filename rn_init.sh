@@ -26,6 +26,8 @@ npm i lodash \
   react-navigation-header-buttons \
   react-native-storage \
   react-native-keyboard-aware-scroll-view \
+  redux \
+  react-redux \
   react-native-safari-view --save
 
 react-native link 
