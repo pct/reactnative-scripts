@@ -12,6 +12,9 @@
 ## Device Permission
 - https://github.com/yonahforst/react-native-permissions
 
+## styled-components 
+- https://github.com/styled-components/styled-components<Paste>
+
 ## Stylus
 - https://github.com/kristerkari/react-native-stylus-transformer
 
@@ -158,3 +161,4 @@ ref: https://medium.com/@bilalbudhani/9-libraries-to-consider-for-your-next-reac
 
 ## Admob
 - https://github.com/sbugert/react-native-admob
+
