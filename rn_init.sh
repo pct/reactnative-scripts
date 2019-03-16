@@ -28,7 +28,8 @@ npm i lodash \
   react-native-keyboard-aware-scroll-view \
   redux \
   react-redux \
-  react-native-safari-view --save
+  react-native-safari-view --save \
+  styled-components --save
 
 react-native link 
 
