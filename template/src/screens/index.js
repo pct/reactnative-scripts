@@ -3,8 +3,7 @@ import { Platform, StyleSheet, Text, View, ImageBackground } from 'react-native'
 import { Button } from 'react-native-elements'
 import { connect } from 'react-redux'
 import { setDemo } from '../redux/actions'
-
-import styles from './styles/index.styl'
+import styled from 'styled-components'
 
 class Index extends Component {
   onPress = (demo) => {
@@ -13,11 +12,11 @@ class Index extends Component {
 
   render() {
     return (
-      <View style={styles.container}>
-        <Text style={ styles.label }>{global.Config.MESSAGE}</Text>
+      <ContainerView>
+        <ConfigMessageText>{global.Config.MESSAGE}</ConfigMessageText>
         <Button onPress={() => this.onPress(global.Config.MESSAGE)} title="Redux Test" />
         <Button onPress={() => this.props.navigation.navigate('Redux')} title="Redux Page" />
-      </View>
+      </ContainerView>
     )
   }
 }
@@ -25,5 +24,13 @@ class Index extends Component {
 const mapStateToProps = state => ({
   state
 })
+
+const ContainerView = styled.View`
+  flex: 1
+`
+
+const ConfigMessageText = styled(props => <Text {...props} />)`
+  color: red
+`
 
 export default connect(mapStateToProps)(Index)
