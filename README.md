@@ -162,3 +162,6 @@ ref: https://medium.com/@bilalbudhani/9-libraries-to-consider-for-your-next-reac
 ## Admob
 - https://github.com/sbugert/react-native-admob
 
+## iOS 背景播放
+- https://www.jianshu.com/p/ca6dc155f485
+
