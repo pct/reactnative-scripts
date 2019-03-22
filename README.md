@@ -165,3 +165,5 @@ ref: https://medium.com/@bilalbudhani/9-libraries-to-consider-for-your-next-reac
 ## iOS 背景播放
 - https://www.jianshu.com/p/ca6dc155f485
 
+## Use RAM as Xcode build disk
+- https://github.com/ikiapps/Setup-Xcode-Derived-Data-RAM-Disk
