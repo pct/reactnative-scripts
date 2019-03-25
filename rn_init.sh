@@ -28,12 +28,9 @@ npm i lodash \
   react-native-keyboard-aware-scroll-view \
   redux \
   react-redux \
-  react-native-safari-view --save \
   styled-components --save
 
 react-native link 
-
-npm i react-native-stylus-transformer stylus --save
 
 # [realm]
 #npm i -g rnpm
