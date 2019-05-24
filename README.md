@@ -150,8 +150,8 @@ ref: https://medium.com/@bilalbudhani/9-libraries-to-consider-for-your-next-reac
 - ncu -ua
 
 
-## Event Listener?
-- https://facebook.github.io/react-native/docs/appstate
+## Event Listener
+- https://github.com/meinto/react-native-event-listeners
 
 ## QR Code
 - https://github.com/awesomejerry/react-native-qrcode-svg
