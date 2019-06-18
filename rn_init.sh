@@ -17,6 +17,10 @@ cp -rpf $BASEDIR/template/* $PROJECT_NAME
 
 cd $PROJECT_NAME
 
+# === clean files ===
+rm -f App.js
+
+
 # === npm ===
 npm i lodash \
   react-navigation \
@@ -31,11 +35,6 @@ npm i lodash \
   styled-components --save
 
 react-native link 
-
-# [realm]
-#npm i -g rnpm
-#npm i realm --save
-#rnpm link realm
 
 # === debugger ===
 brew update && brew cask install react-native-debugger
