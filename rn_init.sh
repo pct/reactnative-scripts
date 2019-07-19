@@ -30,6 +30,7 @@ npm i lodash \
   react-navigation-header-buttons \
   react-native-storage \
   react-native-keyboard-aware-scroll-view \
+  @react-native-community/geolocation \
   styled-components --save
 
 react-native link 
