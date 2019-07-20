@@ -33,10 +33,14 @@ npm i lodash \
   @react-native-community/geolocation \
   styled-components --save
 
-react-native link 
+# react native > 0.60 will auto link
+#react-native link 
 
 # === debugger ===
 brew update && brew cask install react-native-debugger
+
+# === install pod (RN > 0.60) ===
+cd ios; pod install; cd -
 
 # === git ===
 git init; git add .; git commit -m 'init'
