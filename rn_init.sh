@@ -42,6 +42,9 @@ brew update && brew cask install react-native-debugger
 # === install pod (RN > 0.60) ===
 cd ios; pod install; cd -
 
+# === rm Base.lproj ===
+rm -rf ios/$PROJECT_NAME/Base.lproj
+
 # === git ===
 git init; git add .; git commit -m 'init'
 
