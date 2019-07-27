@@ -149,6 +149,8 @@ ref: https://medium.com/@bilalbudhani/9-libraries-to-consider-for-your-next-reac
 - react-native-git-upgrade <react-native new version>
 - ncu -ua
 
+## html parser use axios + cheerio
+- https://github.com/cheeriojs/cheerio
 
 ## Event Listener
 - https://github.com/meinto/react-native-event-listeners
