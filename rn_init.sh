@@ -23,6 +23,7 @@ rm -f App.js
 
 # === npm ===
 npm i lodash \
+  axios \
   react-navigation \
   react-native-elements \
   react-native-vector-icons \
