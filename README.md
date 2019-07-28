@@ -152,6 +152,10 @@ ref: https://medium.com/@bilalbudhani/9-libraries-to-consider-for-your-next-reac
 ## html parser use axios + cheerio
 - https://github.com/cheeriojs/cheerio
 
+    $ npm i cheerio@0.22.0
+    $ npm i events stream buffer
+
+
 ## Event Listener
 - https://github.com/meinto/react-native-event-listeners
 
