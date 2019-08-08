@@ -44,7 +44,8 @@ brew update && brew cask install react-native-debugger
 cd ios; pod install; cd -
 
 # === rm Base.lproj ===
-rm -rf ios/$PROJECT_NAME/Base.lproj
+# 先不移除，可自己決定是否移除 LaunchScreen
+# rm -rf ios/$PROJECT_NAME/Base.lproj
 
 # === git ===
 git init; git add .; git commit -m 'init'
