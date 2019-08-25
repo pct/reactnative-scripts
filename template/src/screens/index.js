@@ -4,9 +4,9 @@ import { Button } from 'react-native-elements'
 import styled from 'styled-components'
 import { AppContext } from '../contexts/AppContext'
 
-function Index({ navigation, dispatch }) {
+export default function Index({ navigation, dispatch }) {
   const [count, setCount] = useState(0)
-  const appContext = useContext(AppContext);
+  const appContext = useContext(AppContext)
 
   onPress = (demo) => {
     appContext.updateDemo(demo)
@@ -30,5 +30,3 @@ const ContainerView = styled.View`
 const ConfigMessageText = styled(props => <Text {...props} />)`
   color: red
 `
-
-export default Index
