@@ -21,21 +21,19 @@ cd $PROJECT_NAME
 rm -f App.js
 
 
-# === npm ===
-npm i lodash \
+# === yarn ===
+yarn add lodash \
   axios \
   react-navigation \
+  react-native-gesture-handler \
+  react-native-reanimated \
   react-native-elements \
   react-native-vector-icons \
-  react-native-gesture-handler \
   react-navigation-header-buttons \
   react-native-storage \
   react-native-keyboard-aware-scroll-view \
   @react-native-community/geolocation \
   styled-components --save
-
-# react native > 0.60 will auto link
-#react-native link 
 
 # === debugger ===
 brew update && brew cask install react-native-debugger
