@@ -25,6 +25,9 @@ rm -f App.js
 yarn add lodash \
   axios \
   react-navigation \
+  react-navigation-stack \
+  react-navigation-tabs \
+  react-navigation-drawer \
   react-native-gesture-handler \
   react-native-reanimated \
   react-native-elements \
