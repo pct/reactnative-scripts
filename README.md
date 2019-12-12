@@ -57,6 +57,8 @@ ref: https://medium.com/@bilalbudhani/9-libraries-to-consider-for-your-next-reac
 - Fabric: https://github.com/corymsmith/react-native-fabric
 - Loading: https://github.com/BilalBudhani/react-native-sleek-loading-indicator
 
+## Browser
+- https://github.com/proyecto26/react-native-inappbrowser
 
 ## Audio & Video
 - https://github.com/react-native-kit/react-native-track-player
@@ -90,7 +92,6 @@ ref: https://medium.com/@bilalbudhani/9-libraries-to-consider-for-your-next-reac
 
 ## Tips:
 - WebView Height: https://facebook.github.io/react-native/docs/dimensions.html set WebView height to Dimensions.get('window').height
-- Safari View: react-native-safari-view, https://github.com/naoufal/react-native-safari-view
 - Config, react-native-dotenv, https://github.com/zetachang/react-native-dotenv
 
 ## 中文
