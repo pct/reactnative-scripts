@@ -1,7 +1,5 @@
 # ReactNative Scripts
 
-https://www.codeinwp.com/blog/free-react-native-templates/
-
 ## Template
 - https://github.com/infinitered/ignite-bowser
 
@@ -89,8 +87,9 @@ ref: https://medium.com/@bilalbudhani/9-libraries-to-consider-for-your-next-reac
 ## Offline
 - https://github.com/jevakallio/redux-offline
 
-## Awesome React Native
+## Awesome React Native and UI
 - https://github.com/jondot/awesome-react-native
+- https://github.com/madhavanmalolan/awesome-reactnative-ui
 
 ## Tips:
 - WebView Height: https://facebook.github.io/react-native/docs/dimensions.html set WebView height to Dimensions.get('window').height
