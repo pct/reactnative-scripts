@@ -1,6 +1,6 @@
 import React, { Component, useState, useContext, Fragment } from 'react'
-import { Platform, StyleSheet, Text, View, ImageBackground, SafeAreaView, StatusBar, ScrollView } from 'react-native'
-import { Button } from 'react-native-elements'
+import { Platform, StyleSheet, View, ImageBackground, SafeAreaView, StatusBar, ScrollView } from 'react-native'
+import { Button, Card, Text } from 'react-native-elements'
 import styled from 'styled-components'
 import { AppContext } from '../contexts/AppContext'
 
@@ -18,11 +18,18 @@ export default function Index({ navigation, dispatch }) {
       <SafeAreaView>
         <ScrollView>
           <ContainerView>
-            <Text>{count}</Text>
-            <Text>{appContext.demo}</Text>
-            <Button onPress={() => setCount(count + 1)} title="Plus Count" />
-            <ConfigMessageText>{global.Config.MESSAGE}</ConfigMessageText>
-            <Button onPress={() => this.onPress("Demo Context API")} title="change demo text" />
+            <Card>
+              <ConfigMessageText h3>{global.Config.MESSAGE}</ConfigMessageText>
+            </Card>
+
+            <Card>
+              <Text h1 style={{ textAlign: 'center'}}>{count}</Text>
+              <Text h4>{appContext.demo}</Text>
+              <ButtonView>
+                <LeftButton onPress={() => setCount(count + 1)} title="Plus Count" />
+                <RightButton onPress={() => this.onPress(`Text had changed to ${count}`)} title="change demo text" />
+              </ButtonView>
+            </Card>
           </ContainerView>
         </ScrollView>
       </SafeAreaView>
@@ -35,5 +42,21 @@ const ContainerView = styled.View`
 `
 
 const ConfigMessageText = styled(props => <Text {...props} />)`
-  color: red
+  color: #208ddd
 `
+
+const ButtonView = styled.View`
+  margin-top: 10
+  flex-direction: row
+  flex: 1
+  justify-content: space-between
+`
+
+const LeftButton = styled(Button)`
+  align-self: flex-start
+`
+
+const RightButton = styled(Button)`
+  align-self: flex-end
+`
+
