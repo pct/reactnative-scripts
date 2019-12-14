@@ -1,5 +1,7 @@
 # ReactNative Scripts
 
+https://www.codeinwp.com/blog/free-react-native-templates/
+
 ## Template
 - https://github.com/infinitered/ignite-bowser
 
