@@ -1,0 +1,20 @@
+<key>NSBluetoothPeripheralUsageDescription</key>
+<string>$(PRODUCT_NAME) would like to use your Bluetooth</string>
+<key>NSCalendarsUsageDescription</key>
+<string>$(PRODUCT_NAME) would like to use your Calendar</string>
+<key>NSCameraUsageDescription</key>
+<string>$(PRODUCT_NAME) would like to use yourCamera</string>
+<key>NSLocationWhenInUseUsageDescription</key>
+<string>$(PRODUCT_NAME) would like to use your Location</string>
+<key>NSLocationAlwaysUsageDescription</key>
+<string>$(PRODUCT_NAME) would like to use your Location</string>
+<key>NSPhotoLibraryAddUsageDescription</key>
+<string>$(PRODUCT_NAME) would like to use your Photo Library</string>
+<key>NSPhotoLibraryUsageDescription</key>
+<string>$(PRODUCT_NAME) would like to use your Photo Library</string>
+<key>NSSpeechRecognitionUsageDescription</key>
+<string>$(PRODUCT_NAME) would like to use your Speech Recognition</string>
+<key>NSAppleMusicUsageDescription</key>
+<string>$(PRODUCT_NAME) would like to use your Apple Music</string>
+<key>NSMotionUsageDescription</key>
+<string>$(PRODUCT_NAME) would like to use your Motion</string>
