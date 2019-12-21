@@ -27,9 +27,14 @@
 ## Learn flexbox 
 - https://facebook.github.io/react-native/docs/flexbox.html
 
-## UI View
-- Magazine ListView: https://github.com/ggomaeng/react-native-magazine-listview
-- Card Modal: https://github.com/ggomaeng/react-native-card-modal
+## Magazine
+- https://github.com/ggomaeng/react-native-magazine-listview
+
+## Card Modal
+- https://github.com/ggomaeng/react-native-card-modal
+
+## Lightbox
+- https://github.com/oblador/react-native-lightbox
 
 ## Animation
 - http://www.lottiefiles.com/
