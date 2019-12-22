@@ -13,7 +13,10 @@ echo 'create project:' $PROJECT_NAME '...'
 # === init ===
 react-native init $PROJECT_NAME
 echo "# Vim\n*~\n*swp" >> $PROJECT_NAME/.gitignore
-cp -rpf $BASEDIR/template/* $PROJECT_NAME
+cp -rpf $BASEDIR/template/base/* $PROJECT_NAME
+
+mkdir -p $PROJECT_NAME/src
+cp -rpf $BASEDIR/template/bottom_src/* $PROJECT_NAME/src
 
 cd $PROJECT_NAME
 
@@ -24,6 +27,7 @@ rm -f App.js
 # === yarn ===
 yarn add lodash \
   axios \
+  react-native-paper \
   react-navigation \
   react-navigation-stack \
   react-navigation-tabs \

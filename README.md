@@ -1,5 +1,17 @@
 # ReactNative Scripts
 
+## Usage:
+
+clean project:
+
+    $ ./init.sh your_new_project
+
+or with bottom tab:
+
+    $ ./bottom_init.sh your_new_project
+
+
+
 ## Template
 - https://github.com/infinitered/ignite-bowser
 
