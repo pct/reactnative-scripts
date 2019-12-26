@@ -3,4 +3,8 @@
 #https://ithelp.ithome.com.tw/articles/10188858
 
 # old apk
-cd android && ./gradlew assembleRelease
+#cd android && ./gradlew assembleRelease
+
+# new build
+cd android && ./gradlew bundleRelease
+
