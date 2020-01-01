@@ -1,14 +1,14 @@
 import React, { Component } from 'react'
-import { Provider as PaperProvider } from 'react-native-paper'
 import { Router } from './router'
 import { Config } from './config/config'
+import { AppProvider } from './contexts/AppContext'
 
 export default class App extends Component {
   render() {
     return (
-      <PaperProvider>
+      <AppProvider>
         <Router />
-      </PaperProvider>
+      </AppProvider>
     )
   }
 }
