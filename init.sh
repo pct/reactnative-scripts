@@ -38,6 +38,8 @@ yarn add lodash \
   react-navigation-header-buttons \
   react-native-storage \
   react-native-keyboard-aware-scroll-view \
+  react-native-safe-area-view \
+  react-native-safe-area-context \
   @react-native-community/geolocation \
   styled-components --save
 

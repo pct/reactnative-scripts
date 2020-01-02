@@ -38,6 +38,9 @@ yarn add lodash \
   react-native-vector-icons \
   react-navigation-header-buttons \
   react-native-storage \
+  react-native-webview \
+  react-native-safe-area-view \
+  react-native-safe-area-context \
   react-native-keyboard-aware-scroll-view \
   @react-native-community/geolocation \
   styled-components --save
