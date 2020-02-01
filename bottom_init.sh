@@ -39,10 +39,12 @@ yarn add lodash \
   react-navigation-header-buttons \
   react-native-storage \
   react-native-webview \
+  react-native-screens \
   react-native-safe-area-view \
   react-native-safe-area-context \
   react-native-keyboard-aware-scroll-view \
   @react-native-community/geolocation \
+  @react-native-community/masked-view \
   styled-components --save
 
 # === debugger ===
