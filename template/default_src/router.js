@@ -1,22 +1,27 @@
-import { createAppContainer } from 'react-navigation'
-import { createStackNavigator } from 'react-navigation-stack'
+import React from 'react'
+import { NavigationContainer } from '@react-navigation/native'
+import { createStackNavigator } from '@react-navigation/stack'
 
 import IndexScreen from './screens/index'
 import WebScreen from './screens/web'
 
-RouterStack = createStackNavigator({
-  Index: {
-    screen: IndexScreen
-  },
-  Web: {
-    screen: WebScreen
-  }
-}, {
-  navigationOptions: {
-    header: null
-  }
-}, {
-  initialRouteName: 'Index'
-})
+const Stack = createStackNavigator();
 
-exports.Router = createAppContainer(RouterStack)
+function MyStack() {
+  return (
+    <Stack.Navigator
+      initialRouteName="Index"
+    >
+      <Stack.Screen name="Index" component={IndexScreen} />
+      <Stack.Screen name="Web" component={WebScreen} />
+    </Stack.Navigator>
+  )
+}
+
+export default function Router() {
+  return (
+    <NavigationContainer>
+      <MyStack />
+    </NavigationContainer>
+  )
+}
