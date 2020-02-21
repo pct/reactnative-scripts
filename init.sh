@@ -27,12 +27,11 @@ rm -f App.js
 # === yarn ===
 yarn add lodash \
   axios \
-  react-navigation \
-  react-navigation-stack \
-  react-navigation-tabs \
-  react-navigation-drawer \
+  @react-navigation/native \
+  @react-navigation/stack \
   react-native-gesture-handler \
   react-native-reanimated \
+  react-native-screens \
   react-native-elements \
   react-native-vector-icons \
   react-navigation-header-buttons \
@@ -41,6 +40,7 @@ yarn add lodash \
   react-native-safe-area-view \
   react-native-safe-area-context \
   @react-native-community/geolocation \
+  @react-native-community/masked-view \
   styled-components --save
 
 # === debugger ===

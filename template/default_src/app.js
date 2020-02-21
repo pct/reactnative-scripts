@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Router } from './router'
+import Router from './router'
 import { Config } from './config/config'
 import { AppProvider } from './contexts/AppContext'
 
