@@ -6,9 +6,15 @@ clean project:
 
     $ ./init.sh your_new_project
 
+or with tab:
+
+    $ ./tabview_init.sh your_new_project
+
 or with bottom tab:
 
     $ ./bottom_init.sh your_new_project
+
+(remember react-native link react-native-vector-icons, keep Info.plist and then unlink)
 
 
 
