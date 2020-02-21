@@ -11,7 +11,7 @@ BASEDIR=$(dirname "$0")
 echo 'create project:' $PROJECT_NAME '...'
 
 # === init ===
-react-native init $PROJECT_NAME
+npx react-native init $PROJECT_NAME
 echo "# Vim\n*~\n*swp" >> $PROJECT_NAME/.gitignore
 cp -rpf $BASEDIR/template/base/* $PROJECT_NAME
 
@@ -27,22 +27,23 @@ rm -f App.js
 # === yarn ===
 yarn add lodash \
   axios \
+  @react-navigation/native \
+  @react-navigation/stack \
   react-native-tab-view \
   react-native-webview \
-  react-navigation \
-  react-navigation-stack \
-  react-navigation-tabs \
-  react-navigation-drawer \
   react-native-gesture-handler \
   react-native-reanimated \
+  react-native-screens \
   react-native-elements \
   react-native-vector-icons \
   react-navigation-header-buttons \
   react-native-storage \
+  react-native-keyboard-aware-scroll-view \
   react-native-safe-area-view \
   react-native-safe-area-context \
-  react-native-keyboard-aware-scroll-view \
+  react-native-inappbrowser-reborn \
   @react-native-community/geolocation \
+  @react-native-community/masked-view \
   styled-components --save
 
 # === debugger ===

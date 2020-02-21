@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { SafeAreaView } from 'react-native'
 import {
   TabView,
   TabBar,
@@ -6,7 +7,6 @@ import {
 } from 'react-native-tab-view'
 
 import Web from './web'
-import { SafeAreaView } from 'react-navigation';
 
 export default class Index extends Component {
 
