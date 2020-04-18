@@ -4,9 +4,9 @@ import { createStackNavigator } from '@react-navigation/stack'
 
 import IndexScreen from './screens/index'
 
-const Stack = createStackNavigator();
+const Stack = createStackNavigator()
 
-function MyStack() {
+function AppStack() {
   return (
     <Stack.Navigator
       initialRouteName="Index"
@@ -19,7 +19,7 @@ function MyStack() {
 export default function Router() {
   return (
     <NavigationContainer>
-      <MyStack />
+      <AppStack />
     </NavigationContainer>
   )
 }
