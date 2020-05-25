@@ -207,6 +207,7 @@ ref: https://medium.com/@bilalbudhani/9-libraries-to-consider-for-your-next-reac
 - https://github.com/ikiapps/Setup-Xcode-Derived-Data-RAM-Disk
 
 ## GeoLocation
-- https://github.com/react-native-community/react-native-geolocation
+- 注意，如果沒有處理好，會導致 Android crash
 - android need set playServicesVersion
+- https://github.com/react-native-community/react-native-geolocation
 - https://developers.google.com/android/guides/releases
