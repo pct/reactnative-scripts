@@ -205,3 +205,8 @@ ref: https://medium.com/@bilalbudhani/9-libraries-to-consider-for-your-next-reac
 
 ## Use RAM as Xcode build disk
 - https://github.com/ikiapps/Setup-Xcode-Derived-Data-RAM-Disk
+
+## GeoLocation
+- https://github.com/react-native-community/react-native-geolocation
+- android need set playServicesVersion
+- https://developers.google.com/android/guides/releases
