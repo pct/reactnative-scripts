@@ -46,9 +46,6 @@ yarn add lodash \
   @react-native-community/masked-view \
   styled-components --save
 
-# === debugger ===
-brew update && brew cask reinstall react-native-debugger
-
 # === install pod (RN > 0.60) ===
 cd ios; pod install; cd -
 
