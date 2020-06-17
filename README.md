@@ -16,6 +16,17 @@ or with bottom tab:
 
 (remember react-native link react-native-vector-icons, keep Info.plist and then unlink)
 
+# 用 ReactNative 開發的 Apps
+- https:/github.com/ReactNativeNews/React-Native-Apps
+
+# Packages
+
+## 背景預設圖片
+- https://github.com/mrousavy/react-native-blurhash
+
+## 網路相關設定
+- https://github.com/ifsnow/react-native-networking-patch
+
 ## 附近訊息
 - https://github.com/mrousavy/react-native-google-nearby-messages
 
@@ -191,6 +202,11 @@ ref: https://medium.com/@bilalbudhani/9-libraries-to-consider-for-your-next-reac
     $ npm i cheerio@0.22.0
     $ npm i events stream buffer
 
+## 偵測有無螢幕快照
+- https://github.com/AzizAK/react-native-detector
+
+## iOS/Android 共用 iOS 類似的選單
+- https://github.com/aelesia/react-native-cross-actionsheet
 
 ## Event Listener
 - https://github.com/meinto/react-native-event-listeners
@@ -215,3 +231,8 @@ ref: https://medium.com/@bilalbudhani/9-libraries-to-consider-for-your-next-reac
 - android need set playServicesVersion
 - https://github.com/react-native-community/react-native-geolocation
 - https://developers.google.com/android/guides/releases
+
+## 文章
+- FlatList 範例：https://www.hadev.fr/blog/react-native-flatlist-real-world-use-cases-tutorial-A9KeA_fqr
+- 多國語言：https://www.instamobile.io/mobile-development/react-native-localization/
+- 使用 hook 提高效能：https://dev.to/ltsharma24/performance-optimisation-react-native-with-hooks-a77
