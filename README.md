@@ -16,7 +16,8 @@ or with bottom tab:
 
 (remember react-native link react-native-vector-icons, keep Info.plist and then unlink)
 
-
+## 附近訊息
+- https://github.com/mrousavy/react-native-google-nearby-messages
 
 ## use state persist
 - https://github.com/leoafarias/use-state-persist
