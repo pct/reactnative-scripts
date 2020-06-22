@@ -16,7 +16,7 @@ echo "# Vim\n*~\n*swp" >> $PROJECT_NAME/.gitignore
 cp -rpf $BASEDIR/template/base/* $PROJECT_NAME
 
 mkdir -p $PROJECT_NAME/src
-cp -rpf $BASEDIR/template/default_src/* $PROJECT_NAME/src
+cp -rpf $BASEDIR/template/macos_src/* $PROJECT_NAME/src
 
 cd $PROJECT_NAME
 
@@ -29,7 +29,7 @@ yarn add lodash \
   axios \
   @react-navigation/native \
   @react-navigation/stack \
-  react-native-elements \
+  react-router-native \
   react-navigation-header-buttons \
   react-native-storage \
   react-native-keyboard-aware-scroll-view \
@@ -40,6 +40,7 @@ cd ios; pod install; cd -
 npx react-native-macos-init
 
 ## 目前不支援 
+#react-native-elements \
 #react-native-vector-icons \
 #react-native-screens \
 #react-native-reanimated \
