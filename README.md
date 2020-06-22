@@ -94,6 +94,7 @@ or with bottom tab:
 
 ## Navigator
 - https://github.com/react-community/react-navigation
+- 可以嘗試看看 react-router-native https://github.com/ReactTraining/react-router/tree/master/packages/react-router-native
 
 ## Toast Alert
 - https://github.com/dilipsuthar97/react-native-tasty-toast
