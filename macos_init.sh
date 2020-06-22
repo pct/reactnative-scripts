@@ -29,21 +29,23 @@ yarn add lodash \
   axios \
   @react-navigation/native \
   @react-navigation/stack \
-  react-native-gesture-handler \
-  react-native-reanimated \
-  react-native-screens \
   react-native-elements \
-  react-native-vector-icons \
   react-navigation-header-buttons \
   react-native-storage \
   react-native-keyboard-aware-scroll-view \
-  @react-native-community/geolocation \
-  @react-native-community/masked-view \
   styled-components --save
 
 ## install macos
 cd ios; pod install; cd -
 npx react-native-macos-init
+
+## 目前不支援 
+#react-native-vector-icons \
+#react-native-screens \
+#react-native-reanimated \
+#react-native-gesture-handler \
+#@react-native-community/masked-view \
+#@react-native-community/geolocation \
 
 # === rm Base.lproj ===
 # 先不移除，可自己決定是否移除 LaunchScreen
