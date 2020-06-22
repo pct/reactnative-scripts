@@ -21,6 +21,13 @@ or with bottom tab:
 
 # Packages
 
+## In App Purchase
+- 說明：https://medium.com/better-programming/react-native-in-app-purchase-subscription-bb7ad18ec5a0
+- https://github.com/dooboolab/react-native-iap
+
+## App Step by Step 說明
+- https://github.com/xcarpentier/rn-tourguide
+
 ## 背景預設圖片
 - https://github.com/mrousavy/react-native-blurhash
 
@@ -87,8 +94,18 @@ or with bottom tab:
 
 ## Navigator
 - https://github.com/react-community/react-navigation
-- http://airbnb.io/native-navigation/
-- https://github.com/sergeyshpadyrev/react-native-easy-router/
+
+## Toast Alert
+- https://github.com/dilipsuthar97/react-native-tasty-toast
+- https://github.com/seniv/react-native-notifier
+
+## progress bar
+- https://github.com/hngocl/progress-react-native
+- Image Progress: https://github.com/oblador/react-native-image-progress
+
+## Google Font
+- https://github.com/expo/google-fonts
+
 
 ## tools
 ref: https://medium.com/@bilalbudhani/9-libraries-to-consider-for-your-next-react-native-project-723f179d4764#.13j6va6v4
@@ -97,7 +114,6 @@ ref: https://medium.com/@bilalbudhani/9-libraries-to-consider-for-your-next-reac
 - Icons: https://github.com/oblador/react-native-vector-icons
 - Form: https://github.com/FaridSafi/react-native-gifted-form
 - Push: https://github.com/zo0r/react-native-push-notification
-- Image Progress: https://github.com/oblador/react-native-image-progress
 - GA: https://github.com/idehub/react-native-google-analytics-bridge
 - Fabric: https://github.com/corymsmith/react-native-fabric
 - Loading: https://github.com/BilalBudhani/react-native-sleek-loading-indicator
@@ -205,8 +221,9 @@ ref: https://medium.com/@bilalbudhani/9-libraries-to-consider-for-your-next-reac
 ## 偵測有無螢幕快照
 - https://github.com/AzizAK/react-native-detector
 
-## iOS/Android 共用 iOS 類似的選單
+## iOS/Android 共用 iOS 類似的選單, selector
 - https://github.com/aelesia/react-native-cross-actionsheet
+- https://github.com/sosog/react-native-dynamically-selected-picker
 
 ## Event Listener
 - https://github.com/meinto/react-native-event-listeners
@@ -236,3 +253,9 @@ ref: https://medium.com/@bilalbudhani/9-libraries-to-consider-for-your-next-reac
 - FlatList 範例：https://www.hadev.fr/blog/react-native-flatlist-real-world-use-cases-tutorial-A9KeA_fqr
 - 多國語言：https://www.instamobile.io/mobile-development/react-native-localization/
 - 使用 hook 提高效能：https://dev.to/ltsharma24/performance-optimisation-react-native-with-hooks-a77
+
+----
+
+# Mac
+## 選單 bar
+- https://github.com/ospfranco/react-native-macos-menubar-template
