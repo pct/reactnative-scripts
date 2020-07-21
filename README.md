@@ -251,6 +251,7 @@ ref: https://medium.com/@bilalbudhani/9-libraries-to-consider-for-your-next-reac
 - https://developers.google.com/android/guides/releases
 
 ## 文章
+- FlatList 效能優化：https://codingislove.com/optimize-react-native-flatlist-performance/
 - FlatList 範例：https://www.hadev.fr/blog/react-native-flatlist-real-world-use-cases-tutorial-A9KeA_fqr
 - 多國語言：https://www.instamobile.io/mobile-development/react-native-localization/
 - 使用 hook 提高效能：https://dev.to/ltsharma24/performance-optimisation-react-native-with-hooks-a77
