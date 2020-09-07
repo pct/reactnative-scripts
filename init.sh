@@ -27,6 +27,7 @@ rm -f App.js
 # === yarn ===
 yarn add lodash \
   axios \
+  rxjs \
   rxjs-hooks \
   @react-navigation/native \
   @react-navigation/stack \
