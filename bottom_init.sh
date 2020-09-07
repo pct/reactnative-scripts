@@ -27,6 +27,7 @@ rm -f App.js
 # === yarn ===
 yarn add lodash \
   axios \
+  rxjs-hooks \
   react-native-paper \
   @react-navigation/native \
   @react-navigation/stack \

@@ -27,6 +27,7 @@ rm -f App.js
 # === yarn ===
 yarn add lodash \
   axios \
+  rxjs-hooks \
   @react-navigation/native \
   @react-navigation/stack \
   react-native-tab-view \

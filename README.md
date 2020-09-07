@@ -21,6 +21,9 @@ or with bottom tab:
 
 # Packages
 
+## rxjs
+- rxjs-hooks https://github.com/LeetCode-OpenSource/rxjs-hooks
+
 ## In App Purchase
 - 說明：https://medium.com/better-programming/react-native-in-app-purchase-subscription-bb7ad18ec5a0
 - https://github.com/dooboolab/react-native-iap
