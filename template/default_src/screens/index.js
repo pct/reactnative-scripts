@@ -4,9 +4,15 @@ import { Button, Card, Text } from 'react-native-elements'
 import styled from 'styled-components'
 import { AppContext } from '../contexts/AppContext'
 
+import { useObservable } from 'rxjs-hooks'
+import { interval } from "rxjs"
+
+
 export default function Index({ navigation, dispatch }) {
   const [count, setCount] = useState(0)
   const appContext = useContext(AppContext)
+
+  const timer_value = useObservable(() => interval(1000), 0);
 
   onPress = (demo) => {
     appContext.updateDemo(demo)
@@ -29,6 +35,9 @@ export default function Index({ navigation, dispatch }) {
                 <LeftButton onPress={() => setCount(count + 1)} title="Plus Count" />
                 <RightButton onPress={() => this.onPress(`Text had changed to ${count}`)} title="change demo text" />
               </ButtonView>
+            </Card>
+            <Card>
+              <Text>RxJS Timer: {timer_value}</Text>
             </Card>
           </ContainerView>
         </ScrollView>
