@@ -21,6 +21,9 @@ or with bottom tab:
 
 # Packages
 
+## react-native-background-upload
+- https://github.com/Vydia/react-native-background-upload
+
 ## rxjs
 - rxjs-hooks https://github.com/LeetCode-OpenSource/rxjs-hooks
 
