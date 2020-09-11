@@ -1,11 +1,12 @@
 #!/bin/sh
 
-if [ $# -eq 0 ]; then
-  echo 'Please input <project-name>'
+if [ $# -lt 2 ]; then
+  echo 'Please input <project-name> <app-bundle-id>'
   exit
 fi
 
 PROJECT_NAME=$1
+BUNDLE_ID=$2
 BASEDIR=$(dirname "$0")
 
 echo 'create project:' $PROJECT_NAME '...'
@@ -16,9 +17,10 @@ echo "# Vim\n*~\n*swp" >> $PROJECT_NAME/.gitignore
 cp -rpf $BASEDIR/template/base/* $PROJECT_NAME
 
 mkdir -p $PROJECT_NAME/src
-cp -rpf $BASEDIR/template/tabview_src/* $PROJECT_NAME/src
+cp -rpf $BASEDIR/template/bottom_src/* $PROJECT_NAME/src
 
 cd $PROJECT_NAME
+react-native-rename $PROJECT_NAME"_app" -b $BUNDLE_ID
 
 # === clean files ===
 rm -f App.js
@@ -27,27 +29,28 @@ rm -f App.js
 # === yarn ===
 yarn add lodash \
   axios \
-  rxjs \
-  rxjs-hooks \
-  @react-navigation/native \
-  @react-navigation/stack \
-  react-native-tab-view \
-  react-native-webview \
+  react-native-paper \
+  react-navigation \
+  react-navigation-stack \
+  react-navigation-tabs \
+  react-navigation-drawer \
   react-native-gesture-handler \
   react-native-reanimated \
-  react-native-screens \
   react-native-elements \
   react-native-vector-icons \
   react-navigation-header-buttons \
   react-native-storage \
-  react-native-keyboard-aware-scroll-view \
+  react-native-webview \
+  react-native-screens \
   react-native-safe-area-view \
   react-native-safe-area-context \
-  react-native-inappbrowser-reborn \
+  react-native-keyboard-aware-scroll-view \
   @react-native-community/geolocation \
   @react-native-community/masked-view \
-  react-native-device-info \
   styled-components --save
+
+# === debugger ===
+brew update && brew cask reinstall react-native-debugger
 
 # === install pod (RN > 0.60) ===
 cd ios; pod install; cd -

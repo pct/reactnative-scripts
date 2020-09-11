@@ -43,6 +43,7 @@ yarn add lodash \
   react-native-safe-area-context \
   @react-native-community/geolocation \
   @react-native-community/masked-view \
+  react-native-device-info \
   styled-components --save
 
 # === install pod (RN > 0.60) ===

@@ -21,6 +21,10 @@ or with bottom tab:
 
 # Packages
 
+## device info
+- https://github.com/react-native-device-info/react-native-device-info
+- 比如可以使用 DeviceInfo.getVersion()
+
 ## react-native-background-upload
 - https://github.com/Vydia/react-native-background-upload
 

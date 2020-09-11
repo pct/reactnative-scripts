@@ -6,9 +6,13 @@ import { AppContext } from '../contexts/AppContext'
 
 import { useObservable } from 'rxjs-hooks'
 import { interval } from "rxjs"
+import DeviceInfo from 'react-native-device-info'
 
 
 export default function Index({ navigation, dispatch }) {
+  const version = DeviceInfo.getVersion()
+  console.log('app version: ' + version)
+
   const [count, setCount] = useState(0)
   const appContext = useContext(AppContext)
 
