@@ -27,6 +27,12 @@ or with bottom tab:
 ## rxjs
 - rxjs-hooks https://github.com/LeetCode-OpenSource/rxjs-hooks
 
+## react native multiple select
+- https://github.com/WrathChaos/react-native-multiple-select
+
+## React Native Drag Text Editor
+- https://github.com/eneskarpuz/react-native-drag-text-editor
+
 ## In App Purchase
 - 說明：https://medium.com/better-programming/react-native-in-app-purchase-subscription-bb7ad18ec5a0
 - https://github.com/dooboolab/react-native-iap
