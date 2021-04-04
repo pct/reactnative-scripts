@@ -8,8 +8,8 @@ export default class Index extends Component {
   state = {
     index: 0,
     routes: [
-      { key: 'home', title: '首頁', icon: 'home-outline' },
-      { key: 'scan', title: '掃描', icon: 'barcode-scan' },
+      { key: 'home', title: '首頁' },
+      { key: 'scan', title: '掃描' },
     ],
   };
 
