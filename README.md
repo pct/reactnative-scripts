@@ -25,6 +25,9 @@ or with bottom tab:
 - https://github.com/react-native-device-info/react-native-device-info
 - 比如可以使用 DeviceInfo.getVersion()
 
+## react-native-auto-height-image
+- https://github.com/vivaxy/react-native-auto-height-image
+
 ## react-native-background-upload
 - https://github.com/Vydia/react-native-background-upload
 
