@@ -1,5 +1,8 @@
 # ReactNative Scripts
 
+# TODO:
+- 引入 MST https://mobx-state-tree.js.org/intro/welcome
+
 ## Usage:
 
 clean project:
