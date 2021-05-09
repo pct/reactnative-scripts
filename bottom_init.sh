@@ -17,6 +17,7 @@ cp -rpf $BASEDIR/template/base/* $PROJECT_NAME
 
 mkdir -p $PROJECT_NAME/src
 cp -rpf $BASEDIR/template/bottom_src/* $PROJECT_NAME/src
+mv $PROJECT_NAME/src/babel.config.js $PROJECT_NAME
 
 cd $PROJECT_NAME
 
