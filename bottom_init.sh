@@ -57,6 +57,9 @@ cd ios; pod install; cd -
 # 先不移除，可自己決定是否移除 LaunchScreen
 # rm -rf ios/$PROJECT_NAME/Base.lproj
 
+# setting react-native-config
+echo 'MAIN_URL=https://matters.news' > .env
+
 # === git ===
 git init; git add .; git commit -m 'init'
 
