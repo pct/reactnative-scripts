@@ -31,6 +31,7 @@ yarn add lodash \
   rxjs-hooks \
   @react-navigation/native \
   @react-navigation/stack \
+  react-native-config \
   react-native-gesture-handler \
   react-native-reanimated \
   react-native-screens \
