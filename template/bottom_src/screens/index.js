@@ -1,33 +1,33 @@
-import React, { Component } from 'react'
+import React, { Component, useState } from 'react'
 import { BottomNavigation } from 'react-native-paper'
 
 import Home from './home'
 import Scan from './scan'
 
-export default class Index extends Component {
-  state = {
-    index: 0,
+export default function Index (navigation) {
+  const [navIndex, setNavIndex] = useState(0)
+
+  const navigationState = {
+    index: navIndex,
     routes: [
       { key: 'home', title: '首頁' },
       { key: 'scan', title: '掃描' },
     ],
   };
 
-  _handleIndexChange = index => this.setState({ index });
+  const handleIndexChange = (index) => setNavIndex(index)
 
-  _renderScene = BottomNavigation.SceneMap({
+  const renderScene = BottomNavigation.SceneMap({
     home: Home,
     scan: Scan,
-  });
+  })
 
-  render() {
-    return (
-      <BottomNavigation
-        navigationState={this.state}
-        onIndexChange={this._handleIndexChange}
-        renderScene={this._renderScene}
-      />
-    )
-  }
+  return (
+    <BottomNavigation
+      navigationState={navigationState}
+      onIndexChange={handleIndexChange}
+      renderScene={renderScene}
+    />
+  )
 }
 
