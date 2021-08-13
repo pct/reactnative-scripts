@@ -244,6 +244,9 @@ ref: https://medium.com/@bilalbudhani/9-libraries-to-consider-for-your-next-reac
     $ npm i cheerio@0.22.0
     $ npm i events stream buffer
 
+## 裁圖器
+- https://github.com/vemarav/react-native-avatar-crop
+
 ## 偵測有無螢幕快照
 - https://github.com/AzizAK/react-native-detector
 
