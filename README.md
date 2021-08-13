@@ -247,6 +247,9 @@ ref: https://medium.com/@bilalbudhani/9-libraries-to-consider-for-your-next-reac
 ## 裁圖器
 - https://github.com/vemarav/react-native-avatar-crop
 
+## 圖片編輯
+- https://github.com/baronha/react-native-photo-editor
+
 ## 偵測有無螢幕快照
 - https://github.com/AzizAK/react-native-detector
 
