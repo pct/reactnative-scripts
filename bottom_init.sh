@@ -31,6 +31,7 @@ yarn add lodash \
   rxjs \
   rxjs-hooks \
   react-native-config \
+  react-native-eject \
   react-native-paper \
   @react-navigation/native \
   @react-navigation/stack \

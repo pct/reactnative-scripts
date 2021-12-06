@@ -31,6 +31,8 @@ yarn add lodash \
   rxjs \
   rxjs-hooks \
   react-native-paper \
+  react-native-config \
+  react-native-eject \
   @react-navigation/native \
   @react-navigation/drawer \
   react-native-gesture-handler \

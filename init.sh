@@ -32,6 +32,7 @@ yarn add lodash \
   @react-navigation/native \
   @react-navigation/stack \
   react-native-config \
+  react-native-eject \
   react-native-gesture-handler \
   react-native-reanimated \
   react-native-screens \
@@ -53,6 +54,9 @@ cd ios; pod install; cd -
 # === rm Base.lproj ===
 # 先不移除，可自己決定是否移除 LaunchScreen
 # rm -rf ios/$PROJECT_NAME/Base.lproj
+
+# setting react-native-config
+echo 'MESSAGE=Hello, 4Point' > .env
 
 # === git ===
 git init; git add .; git commit -m 'init'

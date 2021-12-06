@@ -24,6 +24,9 @@ or with bottom tab:
 
 # Packages
 
+## react-native-eject
+- 主要是重新產生 ios/android, 這對更新版本很有用
+
 ## device info
 - https://github.com/react-native-device-info/react-native-device-info
 - 比如可以使用 DeviceInfo.getVersion()
@@ -77,7 +80,7 @@ or with bottom tab:
 ## Device Permission
 - https://github.com/yonahforst/react-native-permissions
 
-## styled-components 
+## styled-components
 - https://github.com/styled-components/styled-components<Paste>
 
 ## Stylus
@@ -93,7 +96,7 @@ or with bottom tab:
 - https://github.com/sonnylazuardi/awponent
 - https://wix.github.io/react-native-ui-lib
 
-## Learn flexbox 
+## Learn flexbox
 - https://facebook.github.io/react-native/docs/flexbox.html
 
 ## Magazine
@@ -161,7 +164,7 @@ ref: https://medium.com/@bilalbudhani/9-libraries-to-consider-for-your-next-reac
 ## Share
 - https://github.com/EstebanFuentealba/react-native-share
 
-## Others: 
+## Others:
 - Router: https://github.com/jmurzy/react-router-native
 - Debugger https://github.com/jhen0409/react-native-debugger
 
@@ -194,7 +197,7 @@ ref: https://medium.com/@bilalbudhani/9-libraries-to-consider-for-your-next-reac
     $ brew install imagemagick
     $ yo rn-toolbox:assets --splash YOUR_SQUARE_IMAGE.png --ios :w
 
-## TimeLine 
+## TimeLine
 - https://github.com/thegamenicorus/react-native-timeline-listview
 
 ## FastImage
