@@ -1,9 +1,11 @@
 import React, { Component } from 'react'
+import { LogBox } from 'react-native'
 import Router from './router'
 import { Config } from './config/config'
 import { AppProvider } from './contexts/AppContext'
 
-console.ignoredYellowBox = ['Warning: Each', 'Warning: Failed', 'Expected style']
+LogBox.ignoreLogs(['Warning: Each', 'Warning: Failed', 'Expected style'])
+//LogBox.ignoreAllLogs()
 
 export default class App extends Component {
   render() {
