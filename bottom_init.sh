@@ -33,6 +33,7 @@ yarn add lodash \
   react-native-config \
   react-native-eject \
   react-native-paper \
+  react-native-permissions \
   @react-navigation/native \
   @react-navigation/stack \
   react-native-gesture-handler \

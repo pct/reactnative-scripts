@@ -33,6 +33,7 @@ yarn add lodash \
   @react-navigation/stack \
   react-native-config \
   react-native-eject \
+  react-native-permissions \
   react-native-gesture-handler \
   react-native-reanimated \
   react-native-screens \

@@ -32,6 +32,7 @@ yarn add lodash \
   @react-navigation/native \
   @react-navigation/stack \
   react-native-config \
+  react-native-permissions \
   react-native-eject \
   react-native-tab-view \
   react-native-webview \
