@@ -7,4 +7,5 @@
         $ rm -rf ios android
         $ npx react-native-eject
 
-3. 比對 ios android 資料夾的變更
+3. 使用 VS Code 的 git 功能，快速比對 ios android 資料夾的變更並 commit
+
