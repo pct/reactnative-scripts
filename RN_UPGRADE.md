@@ -1,11 +1,20 @@
-快速升級 RN 的方式
-1. npx react-native upgrade
+# react-native upgrade
 
-2. 如果上述不行，則跑完上述步驟後，再來安裝 react-native-eject，其步驟：
+## 1. 升級
 
-        $ yarn add react-native-eject
-        $ rm -rf ios android
-        $ npx react-native-eject
+    npx react-native upgrade 0.68.2
 
-3. 使用 VS Code 的 git 功能，快速比對 ios android 資料夾的變更並 commit
+## 2. 查看 diff, 再 commit
 
+## 3. 使用
+
+    yarn add react-native-eject
+
+再刪除 ios, android, 再使用 eject 產回 ios, android
+
+    rm -rf ios android
+    npx react-native eject
+
+## 4. 查看、比對原本要加回的 code
+
+## 5. build 測試，結束 
