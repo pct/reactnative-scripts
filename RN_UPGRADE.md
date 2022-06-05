@@ -18,3 +18,11 @@
 ## 4. 查看、比對原本要加回的 code
 
 ## 5. build 測試，結束 
+
+## 6. 使用  ncu -u 比對 package.json，最後重新 yarn
+
+    cp package.json package.json.old
+    ncu -u
+    vim -d package.json package.json.old
+    yarn
+
