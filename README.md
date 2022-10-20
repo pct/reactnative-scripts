@@ -1,5 +1,11 @@
 # ReactNative Scripts
 
+# node version use 16
+
+    $ brew install node@16
+    $ brew link --overwrite node@16
+
+
 # TODO:
 - 引入 MST https://mobx-state-tree.js.org/intro/welcome
 
