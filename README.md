@@ -266,6 +266,9 @@ ref: https://medium.com/@bilalbudhani/9-libraries-to-consider-for-your-next-reac
 - https://github.com/aelesia/react-native-cross-actionsheet
 - https://github.com/sosog/react-native-dynamically-selected-picker
 
+## DateTime Picker
+- https://github.com/thespacemanatee/react-native-material-datetime-picker
+
 ## Event Listener
 - https://github.com/meinto/react-native-event-listeners
 
