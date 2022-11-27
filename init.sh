@@ -64,3 +64,6 @@ git init; git add .; git commit -m 'init'
 
 # === done ===
 echo "\n\ndone!"
+
+echo 'NOTICE!! Please add permission settings to iOS / Android'
+echo 'https://github.com/zoontek/react-native-permissions'
