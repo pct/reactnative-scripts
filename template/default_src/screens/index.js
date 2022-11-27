@@ -29,7 +29,7 @@ export default function Index({ navigation, dispatch }) {
         <ScrollView>
           <ContainerView>
             <Card>
-              <ConfigMessageText h3>{global.Config.MESSAGE}</ConfigMessageText>
+              <ConfigMessageText h3>Hello, 4Point Design!</ConfigMessageText>
             </Card>
 
             <Card>
