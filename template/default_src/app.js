@@ -12,13 +12,11 @@ const App = () => {
 
   checkPermissions()
 
-  render() {
-    return (
-      <AppProvider>
-        <Router />
-      </AppProvider>
-    )
-  }
+  return (
+    <AppProvider>
+      <Router />
+    </AppProvider>
+  )
 }
 
 export default App
