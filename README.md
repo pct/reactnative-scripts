@@ -85,12 +85,13 @@ or with bottom tab:
 
 ## Camera
 - https://github.com/wix/react-native-camera-kit
+- https://github.com/mrousavy/react-native-vision-camera
 
 ## Device Permission
 - https://github.com/yonahforst/react-native-permissions
 
 ## styled-components
-- https://github.com/styled-components/styled-components<Paste>
+- https://github.com/styled-components/styled-components
 
 ## Stylus
 - https://github.com/kristerkari/react-native-stylus-transformer
