@@ -26,3 +26,15 @@
     vim -d package.json package.json.old
     yarn
 
+----
+
+## 升級失敗，或跨版本太多時的處理方式
+
+1. 直接 new 一個 project
+2. copy src 過去
+3. 比對 package.json 並新增套件
+4. 將這些套件必要處理方式重新檢查一次
+
+照這方式應該都可以成功，因為重點就是 src 跟 package, 其餘只是核心與套件安裝
+
+
