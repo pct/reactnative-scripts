@@ -33,7 +33,7 @@ yarn add lodash \
   react-navigation-header-buttons \
   react-native-storage \
   react-native-keyboard-aware-scroll-view \
-  styled-components --save
+  styled-components
 
 ## install macos
 cd ios; pod install; cd -

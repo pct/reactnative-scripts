@@ -50,7 +50,7 @@ yarn add lodash \
   @react-native-community/geolocation \
   @react-native-community/masked-view \
   react-native-device-info \
-  styled-components --save
+  styled-components
 
 # === install pod (RN > 0.60) ===
 cd ios; pod install; cd -
