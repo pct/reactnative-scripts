@@ -1,10 +1,5 @@
 # ReactNative Scripts
 
-# node version use 16
-
-    $ brew install node@16
-    $ brew link --overwrite node@16
-
 
 # TODO:
 - 引入 MST https://mobx-state-tree.js.org/intro/welcome
@@ -92,6 +87,7 @@ or with bottom tab:
 
 ## styled-components
 - https://github.com/styled-components/styled-components
+- 記得使用時，每個 style 結尾都要加入分號
 
 ## Stylus
 - https://github.com/kristerkari/react-native-stylus-transformer
