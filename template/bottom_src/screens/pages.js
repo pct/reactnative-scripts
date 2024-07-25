@@ -60,13 +60,13 @@ const renderWebPage = (uri) => {
 }
 
 const BottomView = styled.View`
-  position: absolute
-  bottom: 20
-  width: 100%
-  flex-direction: row
-  align-items: center
-  justify-content: space-between
-  background-color: transparent
+  position: absolute;
+  bottom: 20;
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: transparent;
 `
 
 const IconButton = styled(Button)`

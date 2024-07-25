@@ -43,10 +43,10 @@ const ConfigMessageText = styled(props => <Text {...props} />)`
 `
 
 const ButtonView = styled.View`
-  margin-top: 10
-  flex-direction: row
-  flex: 1
-  justify-content: space-between
+  margin-top: 10;
+  flex-direction: row;
+  flex: 1;
+  justify-content: space-between;
 `
 
 const LeftButton = styled(Button)`

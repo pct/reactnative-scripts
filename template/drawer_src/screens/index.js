@@ -18,14 +18,14 @@ export default function Index({ navigation }) {
 }
 
 const Container = styled.View`
-  flex: 1
-  justify-content: center
-  align-items: center
+  flex: 1;
+  justify-content: center;
+  align-items: center;
 `
 
 const HeroText = styled.Text`
-  font-size: 30px
-  padding-vertical: 20px
+  font-size: 30px;
+  padding-vertical: 20px;
 `
 
 const DrawerButton = styled(Button)`
