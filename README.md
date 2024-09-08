@@ -25,6 +25,10 @@ or with bottom tab:
 
 # Packages
 
+## MMKV - The fastest key/value storage for React Native.
+- 取代 react-native-storage
+ - https://github.com/mrousavy/react-native-mmkv
+
 ## DB (Watermelon DB)
 - https://watermelondb.dev
 
