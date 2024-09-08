@@ -45,7 +45,7 @@ EOF
 ln -s .env.staging .env
 
 # === git ===
-git init; git add .; git commit -m 'init'
+git init; git add .; git commit -m 'init'; git branch -m master
 
 # === done ===
 echo "\n\ndone!"
