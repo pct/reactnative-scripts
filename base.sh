@@ -23,6 +23,7 @@ yarn add lodash \
   react-native-keyboard-aware-scroll-view \
   react-native-safe-area-context \
   react-native-inappbrowser-reborn \
+  react-native-webview \
   react-native-geolocation-service \
   @react-native-community/masked-view \
   react-native-device-info \
