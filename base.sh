@@ -1,5 +1,5 @@
 # === clean files ===
-rm -f App.js
+rm -f App.jsx
 
 # === yarn ===
 yarn add lodash \
