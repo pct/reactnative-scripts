@@ -11,7 +11,7 @@ BASEDIR=$(dirname "$0")
 echo 'create project:' $PROJECT_NAME '...'
 
 # === init ===
-npx react-native@latest init $PROJECT_NAME
+npx @react-native-community/cli init $PROJECT_NAME
 echo "# Vim\n*~\n*swp" >> $PROJECT_NAME/.gitignore
 cp -rpf $BASEDIR/template/base/* $PROJECT_NAME
 
