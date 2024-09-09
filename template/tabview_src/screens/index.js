@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 import { SafeAreaView } from 'react-native'
+import { Tabs } from '../components/tabs'
+
 import {
   TabView,
   TabBar,
@@ -12,7 +14,7 @@ export default class Index extends Component {
 
   state = {
     index: 0,
-    routes: global.Config.tabs
+    routes: Tabs
   }
 
   handleIndexChange = (index) =>
@@ -30,7 +32,7 @@ export default class Index extends Component {
 
   renderSceneMap = () => {
     let tabs = {}
-    global.Config.tabs.forEach(element => {
+    Tabs.forEach(element => {
       tabs[element.key] = Web
     })
 
