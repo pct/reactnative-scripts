@@ -17,6 +17,7 @@ cp -rpf $BASEDIR/template/base/* $PROJECT_NAME
 
 mkdir -p $PROJECT_NAME/src
 cp -rpf $BASEDIR/template/drawer_src/* $PROJECT_NAME/src
+cp $BASEDIR/template/babel.config.js $PROJECT_NAME
 cp $BASEDIR/base.sh $PROJECT_NAME
 
 cd $PROJECT_NAME

@@ -8,6 +8,7 @@ yarn add lodash \
   rxjs-hooks \
   @react-navigation/native \
   @react-navigation/stack \
+  @react-navigation/drawer \
   react-native-config \
   react-native-eject \
   react-native-paper \
