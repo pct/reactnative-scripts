@@ -9,6 +9,7 @@ yarn add lodash \
   @react-navigation/native \
   @react-navigation/stack \
   @react-navigation/drawer \
+  @react-navigation/material-top-tabs \
   react-native-config \
   react-native-eject \
   react-native-paper \
