@@ -303,6 +303,21 @@ ref: https://medium.com/@bilalbudhani/9-libraries-to-consider-for-your-next-reac
 - 多國語言：https://www.instamobile.io/mobile-development/react-native-localization/
 - 使用 hook 提高效能：https://dev.to/ltsharma24/performance-optimisation-react-native-with-hooks-a77
 
+## react-native-user-inactivity
+- 監聽使用者是否有操作
+- https://github.com/jkomyno/react-native-user-inactivity 
+
+## @notifee/react-native
+- app 訊息通知
+- https://github.com/invertase/notifee
+
+## zustand
+- 小型的狀態管理
+- https://github.com/pmndrs/zustand
+
+## ErrorUtils
+- 可以在crash前進行事件處理
+
 ----
 
 # Mac
