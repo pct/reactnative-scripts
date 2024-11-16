@@ -28,7 +28,6 @@ yarn add lodash \
   react-native-webview \
   react-native-pager-view \
   react-native-geolocation-service \
-  @react-native-community/masked-view \
   react-native-device-info \
   styled-components
 
