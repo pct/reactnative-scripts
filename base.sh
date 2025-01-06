@@ -2,7 +2,7 @@
 rm -f App.jsx
 
 # === yarn ===
-yarn add lodash \
+npx yarn add lodash \
   axios \
   rxjs \
   rxjs-hooks \
