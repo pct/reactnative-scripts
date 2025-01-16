@@ -45,7 +45,6 @@ npx react-native-macos-init
 #react-native-screens \
 #react-native-reanimated \
 #react-native-gesture-handler \
-#@react-native-community/masked-view \
 #@react-native-community/geolocation \
 
 # === rm Base.lproj ===
