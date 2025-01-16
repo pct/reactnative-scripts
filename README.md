@@ -303,8 +303,40 @@ ref: https://medium.com/@bilalbudhani/9-libraries-to-consider-for-your-next-reac
 - 多國語言：https://www.instamobile.io/mobile-development/react-native-localization/
 - 使用 hook 提高效能：https://dev.to/ltsharma24/performance-optimisation-react-native-with-hooks-a77
 
+## react-native-user-inactivity
+- 監聽使用者是否有操作
+- https://github.com/jkomyno/react-native-user-inactivity 
+
+## @notifee/react-native
+- app 訊息通知
+- https://github.com/invertase/notifee
+
+## zustand
+- 小型的狀態管理
+- https://github.com/pmndrs/zustand
+
+## ErrorUtils
+- 可以在crash前進行事件處理
+
 ----
 
 # Mac
 ## 選單 bar
 - https://github.com/ospfranco/react-native-macos-menubar-template
+
+## 如果圖片要取exif 
+iOS 或 Android 系統需要獲取地理位置相關權限，否則無法在拍攝或讀取圖片時獲取經緯度資訊。
+解決方法：
+- iOS：
+確保在 Info.plist 中添加了相關描述 (template 中已經有加入)：
+```
+<key>NSLocationWhenInUseUsageDescription</key>
+<string>需要您的位置以訪問圖片地理資訊</string>
+```
+- Android：
+確保在 AndroidManifest.xml 中添加了權限：
+```
+<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+<uses-permission android:name="android.permission.ACCESS_MEDIA_LOCATION"/>
+```
+- permission 要加上 ACCESS_MEDIA_LOCATION請求該權限
