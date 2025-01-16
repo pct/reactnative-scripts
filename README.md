@@ -323,3 +323,20 @@ ref: https://medium.com/@bilalbudhani/9-libraries-to-consider-for-your-next-reac
 # Mac
 ## 選單 bar
 - https://github.com/ospfranco/react-native-macos-menubar-template
+
+## 如果圖片要取exif 
+iOS 或 Android 系統需要獲取地理位置相關權限，否則無法在拍攝或讀取圖片時獲取經緯度資訊。
+解決方法：
+- iOS：
+確保在 Info.plist 中添加了相關描述 (template 中已經有加入)：
+```
+<key>NSLocationWhenInUseUsageDescription</key>
+<string>需要您的位置以訪問圖片地理資訊</string>
+```
+- Android：
+確保在 AndroidManifest.xml 中添加了權限：
+```
+<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+<uses-permission android:name="android.permission.ACCESS_MEDIA_LOCATION"/>
+```
+- permission 要加上 ACCESS_MEDIA_LOCATION請求該權限
